@@ -2,5 +2,6 @@
 Recognising hand written math problems and solving them
 
 First goal:
-- recognising hand-written symbols using self-made dataset
+- adding more data to mnist.npz for better recognition of data and mathematical symbols
 - testing hand-written numbers algorithm more rigorously
+- organise files into more folders
