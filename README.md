@@ -1,4 +1,4 @@
-# math-solver
+# number-recognizer
 Recognising hand written math problems and solving them
 
 First goal:
