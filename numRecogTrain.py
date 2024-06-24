@@ -21,11 +21,14 @@ def train():
     #final output layer
     #it represents the 10 different digit. hence it has 10 different values as output
     #softmax functions makes sure that all the neuron values add up to 1
-    model.add(tf.keras.layers.Dense(number_of_characters, activation="softmax"))
+    model.add(tf.keras.layers.Dense(10, activation="softmax"))
 
 
     #compile the model
     model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
     model.fit(x_train, y_train, epochs=10)
     model.save('numMod.keras')
+
+train()
+
 
