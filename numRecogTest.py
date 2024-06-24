@@ -5,7 +5,7 @@ from numData import x_test, y_test
 from mnistUpdate import update_mnist
 from numRecogTrain import train
 
-
+#during git push errors use 'git reset -soft HEAD~'
 model = tf.keras.models.load_model('numMod.keras')
 loss, accuracy = model.evaluate(x_test, y_test)
 
